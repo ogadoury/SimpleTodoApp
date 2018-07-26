@@ -1,0 +1,13 @@
+.app-body {
+  margin: 0 auto;
+  width: 600px;
+  background: #aacbff;
+  color: #2c518e;
+  text-align: center;
+}
+
+.input-todo {
+  width: 560px;
+  height: 60px;
+  font-size: 42px;
+}
