@@ -17,7 +17,7 @@ export class Form extends Component {
 	handleSubmit(e) {
 		e.preventDefault();
 		const todos = [... this.state.todos, this.state.newTodo];
-		this.setState({todos,newTodo: ''})
+		this.setState({todos, newTodo: ''})
 	}
 
 	render () {
@@ -42,8 +42,12 @@ export class Form extends Component {
 				SAVE
 				</button>
 			</form>
-			
+			<div>
+				<ol>
+				{todos}
+				</ol>
+			</div>
 		</div>
-		)
+		);
 	}
 }
